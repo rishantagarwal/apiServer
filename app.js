@@ -8,15 +8,14 @@ var cors = require('cors');
 var routes = require('./routes/index');
 /*var monitor = require('./routes/monitor');*/
 
-var passport = require('passport');
-var flash    = require('connect-flash');
+
 
 var app = express();
 
 // configuration ===============================================================
 // connect to our database
 
-require('./config/passport')(passport); // pass passport for configuration
+//require('./config/passport')(passport); // pass passport for configuration
 
 
 
@@ -33,20 +32,12 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 
-// required for passport
-app.use(session({
-	secret: 'rishantagarweal ',
-	resave: true,
-	saveUninitialized: true
- } )); // session secret
-app.use(passport.initialize());
-app.use(passport.session()); // persistent login sessions
-app.use(flash()); // use connect-flash for flash messages stored in session
+
 
 
 
 app.use('/', routes);
-app.use('/monitor', monitor);
+//app.use('/monitor', monitor);
 
 
 

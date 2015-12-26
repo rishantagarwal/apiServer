@@ -16,14 +16,14 @@ var logger = log4js.getLogger('serverLogs');
 
 
 var options = {
-  key: fs.readFileSync('./../gpsPunchServer/certs/rishant.key'),
-  cert: fs.readFileSync('./../gpsPunchServer/certs/rishant.crt')
+  key: fs.readFileSync('./../workspace/certs/rishant.key'),
+  cert: fs.readFileSync('./../workspace/certs/rishant.crt')
 };
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '9374');
+var port = normalizePort(process.env.PORT || '8080');
 app.set('port', port);
 
 /**
