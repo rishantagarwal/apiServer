@@ -1,18 +1,16 @@
+/////////////////////////////////////////////////////////
+    _          _   ____                           
+   / \   _ __ (_) / ___|  ___ _ ____   _____ _ __ 
+  / _ \ | '_ \| | \___ \ / _ \ '__\ \ / / _ \ '__|
+ / ___ \| |_) | |  ___) |  __/ |   \ V /  __/ |   
+/_/   \_\ .__/|_| |____/ \___|_|    \_/ \___|_|   
+        |_|                                       
+////////////////////////////////////////////////////////
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+1. Contains server code which listens to Apis .
+2. Uses a self signed security certificate.
+3. Follows a token based authentication approach for API validation.
+4. Written using NodeJS and Express JS.
 
 
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+RishantAgarwal @ Copyright 2016
